@@ -13,12 +13,13 @@
             <header>
             <marquee behavior="scroll"> <h1>Développeuse Web</h1></marquee>  
             </header>
-            
             <?php include('menu.php'); ?>
-            <main>
-                <h2>Bienvenu sur mon portfolio</h2>
+            
+
+            <main id="homepage">
+                <h2>Hello</h2>
                 
-                <p> Je me présente, je m'appelle Jessi<br>
+                <p> Moi c'est jessica, 42 ans de Bruxelles<br>
                     Je voudrais bien réussir ma vie, être aimée<br>
                     Être belle, gagner de l'argent<br>
                     Puis surtout être intelligente<br>
@@ -36,6 +37,8 @@
                     Ils rêvent de Jessi<br>
 </p>
             </main>
+
+            
             
         </div>
     </body>

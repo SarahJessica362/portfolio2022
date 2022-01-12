@@ -11,8 +11,7 @@
 <body>
 <div id="global">
 <header>
-<marquee behavior="scroll"><h1>Contact</h1></marquee>
-      
+<marquee behavior="scroll"><h1>Contact</h1></marquee>    
 </header>
 
 <?php
@@ -46,7 +45,8 @@ if (isset($_POST["name"]) && isset($_POST["mail"]) && isset($_POST["msg"])) {
         ];
         mail($to, $subject, $message, $header);
         echo "<h1>Votre mail à bien étés envoyé !</h1>";
-    } else {
+    } 
+    else {
 
      echo "<h1>Votre mail n'a pas été envoyé, veuillez recommencer !</h1>";
     }
@@ -70,6 +70,7 @@ if (isset($_POST["name"]) && isset($_POST["mail"]) && isset($_POST["msg"])) {
             <textarea name="msg" id="msg" placeholder="Ecrivez votre message" required></textarea>
             <br><input type="submit" value="Envoyez !"/>
         </form>
+</main>
 </body>
 </html>
 
