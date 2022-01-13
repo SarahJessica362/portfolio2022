@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link href="menu.css" type="text/css" rel="stylesheet" />
     <title>Contact</title>
 </head>
 
@@ -56,10 +57,11 @@ if (isset($_POST["name"]) && isset($_POST["mail"]) && isset($_POST["msg"])) {
 <?php include('menu.php');?>
 
 <main>
-<img src="img/mail.png"width="120" height="75"/></a>
+    
+<img src="img/mail.png"width="120" height="75" center/></a>
 
 <form method="POST" action="">
-            <h1>Envoyez-moi un message</h1>
+            <h2>Envoyez-moi un message</h2>
            <br><label for="name">Votre nom :</label><br>
             <input type="text" name="name" id="name" placeholder="Veuillez entrer votre nom" required/>
             <br>
@@ -70,6 +72,7 @@ if (isset($_POST["name"]) && isset($_POST["mail"]) && isset($_POST["msg"])) {
             <textarea name="msg" id="msg" placeholder="Ecrivez votre message" required></textarea>
             <br><input type="submit" value="Envoyez !"/>
         </form>
+
 </main>
 </body>
 </html>

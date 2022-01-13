@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link href="menu.css" type="text/css" rel="stylesheet" />
     <title> Curriculum Vitae</title>
 </head>
 <body>
@@ -18,8 +19,6 @@
 
 <main>
 <h2>Curriculum Vitae</h2>
-<figure class="boite">
-<a href="img/cv_fussenjessica_2021.pdf" target="_blank"><img src="img/cv.jpg"width="400px" height="400px"/></a>
 </main>
 </div>
 </body>

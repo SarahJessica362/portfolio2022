@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link href="menu.css" type="text/css" rel="stylesheet" />
+    <script src="menu.js"></script>
     <title>Acceuil</title>
 </head>
 
@@ -17,10 +19,11 @@
             
 
             <main id="homepage">
-                <h2>Hello</h2>
+                <h1>Hello!</h1>
                 
                 <p> Moi c'est jessica, 42 ans de Bruxelles<br>
-                    Je voudrais bien réussir ma vie, être aimée<br>
+                    Jai toujours été passionné par l'informatique, alors
+                     voudrais bien réussir ma vie, être aimée<br>
                     Être belle, gagner de l'argent<br>
                     Puis surtout être intelligente<br>
                     Mais pour tout ça il faudrait que je bosse à plein temps<br>

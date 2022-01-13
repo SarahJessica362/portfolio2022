@@ -1,0 +1,27 @@
+.menu_hamburger {
+    background-color: blue;
+    width : 250px;      
+    height : auto;
+    padding: 10px;
+    position:fixed;
+    z-index: 5;
+    top : 60px;         
+    left:-270px;        
+    transition: left 500ms ease 0ms;
+}
+
+.menu_hamburger.affiche {
+    left:0px;
+    transition: left 1s linear 0s;
+}
+
+.menu_hamburger ul li {
+    list-style: none;  
+}
+
+.menu_hamburger ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
